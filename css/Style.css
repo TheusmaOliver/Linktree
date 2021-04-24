@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    background: rgb(2,32,139);
+    background: linear-gradient(176deg, rgba(2,32,139,1) 0%, rgba(0,212,255,1) 100%);
+    
+}
+
+header {
+    margin-top: 20px;
+    text-align: center;
+}
+
+header .foto-principal {
+    width: 80px;
+    border-radius: 50px;
+    box-shadow: 0 0 20px white;
+}
+
+header .social-icons {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 20px;
+}
+
+header .social-icons img {
+    width: 20px;
+}
+
+header h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+header h2 {
+    font-size: 20px;
+}
+
+main .links {
+    list-style: none;
+    
+}
+
+main .links li {
+    margin: 10px 20px;
+}
+
+main .links li a {
+    display: block;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: rgb(2,32,139);
+    font-weight: bold;
+    box-shadow: 0px 0px 20px white;
+}
+
+main .links li a span {
+    color: grey;
+    display: block;
+    margin-top: 10px;
+}
